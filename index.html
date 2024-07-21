@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV page</title>
+    
+</head>
+<body>
+    <header class="header">
+        <img src="/Исходники/чулан/jesus-christ-statue-with-gold-crown-thorns-3d-rendering-side-angle-empty-space_851674-27206.jpg" alt="jesus-christ" class="avatar">
+        <h1 class="header__title"> Phoenix Human</h1>
+        <h2 class="header__little">Феникс Человек</h2>
+        <h3 class="header__subtitle">Frontend Devoleper</h3>
+    </header>
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            
+            <details>
+                <summary>Skill list:</summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. Java Script</li>
+                    <li>4. React</li>
+                    <li>5. Type Script</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4> Short article about me</h4>
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Это сих не, знаках грустный страну вершину великий большого повстречался! Возвращайся маленький ручеек строчка одна великий раз лучше мир города!
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section >
+            <h2>Видеогайд</h2>
+            <iframe  class="video" src="https://www.youtube.com/embed/sECs4qsbEQk" title="Frontender[1.0] - Модуль 1 | Курс по FRONTEND | HTML, CSS, SCSS, GIT, NPM, SEO, A11Y | УРОКИ [2-55]"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <h3>Отдых также полезен как и практика</h3>
+        <section class="hobby">
+            <h4>My hobbies</h4>
+            <details>
+                <summary>Hobbies</summary>
+                    <ul>
+                        <li>Skiing</li>
+                        <li>Video edition</li>
+                        <li>Reading</li>
+                        <li>Learning</li>
+                    </ul>
+
+            </details>
+        </section>
+        <hr class="separator">
+
+        <section class="ed">
+            <h2>Таблица</h2>
+            <table class="ed__table">
+                <thead>
+                <tr>
+                    <th>School / University</th>
+                    <th>Profeission</th>
+                    <th>Year</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>IT school 1</td>
+                    <td>Angular</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>IT school 2</td>
+                    <td>React Dev</td>
+                    <td>2023</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="quote">
+            <h2>Изречение</h2>
+            <blockquote>
+                Действие - это единственный путь к успеху.
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <h2>Интерактив</h2>
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    <label for="firstName-id">First Name</label>
+                    <input type="text" name="firstName" id="firstName-id" required
+                    class="form__control" placeholder="First Name">
+    
+                    <label for="lastName-id">Last Name</label>
+                    <input type="text" name="lastName" id="lastName-id" required class="form__control" placeholder="Last Name">
+    
+                    <label for="email-id">Email:</label>
+                    <input type="email" name="email" id="email-id" required class="form__control" placeholder="email">
+                </fieldset>
+                <br>
+                <textarea name="questions" id="#" cols="30" rows="7" class="form__control control__text" placeholder="questions"></textarea>
+                <button class="form__submit" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <hr class="separator">
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contacts__link">it@mail.ru</a>
+            <br>
+            <br>
+            <a href="tel:+79898778822" class="contacts__link">tel:+79898778822</a>
+        </address>
+    </footer>
+</body>
+</html>
